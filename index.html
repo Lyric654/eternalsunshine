@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eternal Sunshine Data Visualization</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 24px;
+      color: #333;
+    }
+    #chart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 100px);
+    }
+    .tooltip {
+      position: absolute;
+      text-align: center;
+      width: auto;
+      padding: 8px;
+      font-size: 12px;
+      color: white;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 4px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>eternal sunshine of the spotless mind.</h1>
+  <div id="chart"></div>
+  <script src="script.js"></script>
+</body>
+</html>
